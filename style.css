@@ -323,25 +323,55 @@ body {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 760px) {
   .site-header {
     padding: 1rem 1rem;
+  }
+
+  .main-nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .btn-nav {
+    width: 100%;
+    text-align: center;
   }
 
   .hero {
     padding: 3rem 1rem 2rem;
   }
 
-  .main-nav {
-    gap: 1rem;
+  .hero-visual {
+    margin-top: 2rem;
   }
 
+  .console-card {
+    width: min(320px, 100%);
+  }
+}
+
+@media (max-width: 680px) {
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 
   .hero p,
-  .cta-copy p {
+  .cta-copy p,
+  .feature-grid p,
+  .games-grid p {
     font-size: 1rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
