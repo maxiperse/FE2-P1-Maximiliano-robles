@@ -1,1 +1,3 @@
-Primer prompt: Quiero hacer un prototipo pagina para promocionar un producto tecnologico que seria una playstation 5 
+Primer prompt: Quiero hacer un prototipo pagina para promocionar un producto tecnologico que seria una playstation 5. Util
+segundo prompt: Puedes Agregarle adaptacion a dispositivos moviles. Util
+tercer prompt: Puedes agregarle un poco mas de informacion a cada seccion?. algo util
